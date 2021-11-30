@@ -1,0 +1,118 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+polls.Choice: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the PollsConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+polls.Question: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the PollsConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 2 issues (0 silenced).
+Not Found: /
+[21/Oct/2021 01:35:56] "GET / HTTP/1.1" 404 2161
+Not Found: /favicon.ico
+[21/Oct/2021 01:35:57] "GET /favicon.ico HTTP/1.1" 404 2212
+[21/Oct/2021 01:36:20] "GET /admin HTTP/1.1" 301 0
+[21/Oct/2021 01:36:20] "GET /admin/ HTTP/1.1" 302 0
+[21/Oct/2021 01:36:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2230
+[21/Oct/2021 01:36:20] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[21/Oct/2021 01:36:20] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[21/Oct/2021 01:36:20] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[21/Oct/2021 01:36:20] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[21/Oct/2021 01:36:20] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[21/Oct/2021 01:36:20] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[21/Oct/2021 01:36:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[21/Oct/2021 01:36:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[21/Oct/2021 01:38:25] "GET /polls HTTP/1.1" 301 0
+[21/Oct/2021 01:38:25] "GET /polls/ HTTP/1.1" 200 268
+[21/Oct/2021 01:38:25] "GET /static/polls/style.css HTTP/1.1" 200 97
+[21/Oct/2021 01:38:25] "GET /static/polls/images/background.gif HTTP/1.1" 200 230525
+[21/Oct/2021 01:38:28] "GET /polls/king/6/ HTTP/1.1" 200 241
+[21/Oct/2021 01:38:29] "POST /polls/6/vote/ HTTP/1.1" 200 286
+[21/Oct/2021 01:38:30] "POST /polls/6/vote/ HTTP/1.1" 200 286
+[21/Oct/2021 01:38:35] "GET /polls/king/5/ HTTP/1.1" 200 701
+[21/Oct/2021 01:38:38] "POST /polls/5/vote/ HTTP/1.1" 302 0
+[21/Oct/2021 01:38:38] "GET /polls/5/results/ HTTP/1.1" 200 336
+[21/Oct/2021 01:38:39] "GET /polls/king/5/ HTTP/1.1" 200 701
+[21/Oct/2021 01:38:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2405
+[21/Oct/2021 01:38:46] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[21/Oct/2021 01:45:20] "GET /polls/king/5/ HTTP/1.1" 200 701
+[21/Oct/2021 01:45:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Oct/2021 01:45:27] "GET /admin/ HTTP/1.1" 200 4423
+[21/Oct/2021 01:45:27] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[21/Oct/2021 01:45:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[21/Oct/2021 01:45:27] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[21/Oct/2021 01:45:30] "GET /admin/polls/choice/ HTTP/1.1" 200 6973
+[21/Oct/2021 01:45:30] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[21/Oct/2021 01:45:30] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[21/Oct/2021 01:45:30] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[21/Oct/2021 01:45:30] "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+[21/Oct/2021 01:45:30] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[21/Oct/2021 01:45:30] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[21/Oct/2021 01:45:30] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[21/Oct/2021 01:45:30] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 01:45:30] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[21/Oct/2021 01:45:30] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[21/Oct/2021 01:45:30] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[21/Oct/2021 01:45:32] "GET /admin/polls/question/ HTTP/1.1" 200 6736
+[21/Oct/2021 01:45:32] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 01:45:33] "GET /admin/auth/group/ HTTP/1.1" 200 5566
+[21/Oct/2021 01:45:34] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 01:45:34] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[21/Oct/2021 01:45:34] "GET /admin/auth/user/ HTTP/1.1" 200 9619
+[21/Oct/2021 01:45:34] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[21/Oct/2021 01:45:34] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 01:45:34] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+Not Found: /
+[21/Oct/2021 01:56:12] "GET / HTTP/1.1" 404 2161
+[21/Oct/2021 01:56:14] "GET /admin/auth/user/ HTTP/1.1" 200 9619
+[21/Oct/2021 01:56:16] "GET /admin/password_change/ HTTP/1.1" 200 5157
+[21/Oct/2021 01:56:16] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[21/Oct/2021 01:56:16] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[21/Oct/2021 01:56:19] "GET /admin/ HTTP/1.1" 200 4423
+[21/Oct/2021 08:36:41] "GET /polls/ HTTP/1.1" 200 268
+[21/Oct/2021 08:36:43] "GET /polls/king/5/ HTTP/1.1" 200 701
+[21/Oct/2021 08:37:51] "GET /admin/polls/choice/add/ HTTP/1.1" 200 7680
+[21/Oct/2021 08:37:51] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 08:37:51] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[21/Oct/2021 08:37:51] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[21/Oct/2021 08:37:51] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[21/Oct/2021 08:37:51] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[21/Oct/2021 08:37:51] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[21/Oct/2021 08:37:54] "GET /admin/auth/group/add/ HTTP/1.1" 200 9091
+[21/Oct/2021 08:37:54] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[21/Oct/2021 08:37:54] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+[21/Oct/2021 08:37:54] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 08:37:54] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[21/Oct/2021 08:37:54] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[21/Oct/2021 08:37:57] "GET /admin/auth/user/add/ HTTP/1.1" 200 7881
+[21/Oct/2021 08:37:57] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 08:38:37] "GET /admin/polls/choice/ HTTP/1.1" 200 6973
+[21/Oct/2021 08:38:37] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[21/Oct/2021 08:38:37] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 08:38:37] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[21/Oct/2021 08:38:40] "GET /admin/polls/question/add/ HTTP/1.1" 200 6769
+[21/Oct/2021 08:38:40] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[21/Oct/2021 08:38:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
+[21/Oct/2021 08:38:40] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[21/Oct/2021 08:38:40] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[21/Oct/2021 08:38:40] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[21/Oct/2021 08:38:41] "GET /admin/polls/question/ HTTP/1.1" 200 6736
+[21/Oct/2021 08:38:41] "GET /admin/jsi18n/ HTTP/1.1" 200 8330
